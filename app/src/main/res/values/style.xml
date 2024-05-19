@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- App theme customization goes here -->
+    </style>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat">
+        <!-- Dark mode customization goes here -->
+    </style>
+</resources>

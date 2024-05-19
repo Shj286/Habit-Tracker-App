@@ -1,0 +1,45 @@
+<resources>
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Hindi</item>
+        <!-- Add more language options as needed -->
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>hi</item>
+        <!-- Add more language values as needed -->
+    </string-array>
+
+    <string-array name="font_size_options">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="color_options">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+
+</resources>

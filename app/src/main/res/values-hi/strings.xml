@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="app_name">आदत ट्रैकर</string>
+    <string name="notes">टिप्पणियाँ</string>
+    <string name="reminders">अनुस्मारक</string>
+    <string name="stats">आंकड़े</string>
+    <string name="habits">आदतें</string>
+    <string name="motd">दिन का आदर्श वाक्य</string>
+    <string name="addButton">बटन जोड़ें</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="messages_header">\" संदेशों\"</string>
+    <string name="signature_title">आपका हस्ताक्षर</string>
+    <string name="reply_title">िफ़ॉल्ट उत्तर क्रिया</string>
+    <string name="sync_title">ईमेल को समय-समय पर सिंक करे</string>
+    <string name="attachment_title">आने वाले अनुलग्नक डाउनलोड करे</string>
+    <string name="attachment_summary_on">आने वाले ईमेल के लिए स्वचालित रूप से अनुलग्नक डाउनलोड करें</string>
+    <string name="attachment_summary_off">मैन्युअल रूप से अनुरोध किए जाने पर ही अनुलग्नक डाउनलोड करे</string>
+    <string name="sync_header">साथ-साथ करना</string>
+
+
+    <string name="theme">थीम सेटिंग</string>
+    <string name="AppTheme">ऐपथीम</string>
+    <string name="Selectedtheapptheme">ऐप थीम का चयन किया गया</string>
+    <string name="notification_preference">" सूचना सक्षम करें"</string>
+    <string name="receiveNotification">महत्वपूर्ण घटनाओं के लिए अधिसूचना प्राप्त करें</string>
+    <string name="Language">भाषा</string>
+    <string name="preferredLanguage">" अपनी पसंदीदा भाषा चुनें"</string>
+    <string name="fontSize">" फ़ॉन्ट आकार"</string>
+    <string name="selectfs">" ऐप फ़ॉन्ट आकार चुनें"</string>
+    <string name="enableVibration">" कंपन सक्षम करें"</string>
+    <string name="enable">कुछ घटनाओं के लिए कंपन सक्षम करें</string>
+    <string name="appColor">" ऐप का रंग"</string>
+    <string name="selectColor">" ऐप का प्राथमिक रंग चुनें"</string>
+
+
+</resources>

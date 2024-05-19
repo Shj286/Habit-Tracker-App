@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/theme">
+
+        <ListPreference
+            app:key="theme_preference"
+            app:title="@string/AppTheme"
+            app:summary="@string/Selectedtheapptheme"
+            app:entries="@array/theme_options"
+            app:entryValues="@array/theme_values"
+            app:defaultValue="Light" />
+
+        <SwitchPreferenceCompat
+            android:key="notification_preference"
+            android:title="@string/notification_preference"
+            android:summary="@string/receiveNotification"
+            android:defaultValue="true" />
+
+        <!-- Language Preference -->
+        <ListPreference
+            android:key="language_preference"
+            android:title="@string/Language"
+            android:summary="@string/preferredLanguage"
+            android:entries="@array/language_options"
+            android:entryValues="@array/language_values"
+            android:defaultValue="English" />
+
+        <!-- Font Size Preference -->
+        <ListPreference
+            android:key="font_size_preference"
+            android:title="@string/fontSize"
+            android:summary="@string/selectfs"
+            android:entries="@array/font_size_options"
+            android:entryValues="@array/font_size_values"
+            android:defaultValue="Medium" />
+
+        <!-- Vibration Preference -->
+        <SwitchPreferenceCompat
+            android:key="vibration_preference"
+            android:title="@string/enableVibration"
+            android:summary="@string/enable"
+            android:defaultValue="true" />
+
+        <!-- App Color Preference -->
+        <ListPreference
+            android:key="color_preference"
+            android:title="@string/appColor"
+            android:summary="@string/selectColor"
+            android:entries="@array/color_options"
+            android:entryValues="@array/color_values"
+            android:defaultValue="Blue" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

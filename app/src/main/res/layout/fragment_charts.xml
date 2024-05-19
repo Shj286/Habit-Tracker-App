@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextMotto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="110dp"
+        android:hint="Motto of the day" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:layout_below="@id/editTextMotto"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:text="Statistics For Daily Tasks" />
+
+
+</RelativeLayout>
